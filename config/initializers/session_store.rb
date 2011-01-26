@@ -6,3 +6,5 @@ Connectioncrm::Application.config.session_store :cookie_store, :key => '_connect
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rake db:sessions:create")
 # Connectioncrm::Application.config.session_store :active_record_store
+
+Rails.application.config.i18n.default_locale = "pt-BR"
